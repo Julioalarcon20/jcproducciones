@@ -1,0 +1,113 @@
+.contact-container{
+    width:90%;
+    padding-bottom: 100px;
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+}
+.form-contact{
+    padding:20px;
+    width: 100%;
+    background:#222222;
+    border-radius: 10px 0px 0px 10px ;
+}
+.form-contact h3{
+    font-size: 20px;
+    font-family: var(--fuente-primaria);
+}
+.form-contact p {
+    font-size: 15px;
+}
+.cajas input{
+    padding: 20px;
+    color: var(--color-letras);
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius:10px;
+    border:none;
+    outline: none;
+    caret-color:var(--color-letras);
+    background-color:var(--bg-dark);
+}
+.mensaje textarea {
+    color: var(--color-letras);
+    width: 100%;
+    caret-color: var(--color-letras);
+    background-color: var(--bg-dark);
+    border: none;
+    min-height:100px;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.info-contact{
+    padding: 20px;
+    background:var(--color-letras);
+    color:var(--bg-dark);
+    border-radius: 0px 10px 10px 0px;
+}
+.info-contact p i{
+    font-size: 25px;
+}
+.contact-container h3{
+    font-size: 20px;
+    font-family: var(--fuente-primaria);
+}
+.boton{
+    padding-bottom: 10px;
+    padding-top:10px;
+}
+.boton input{
+    width: 100%;
+    height: 40px;
+    background-color: var(--color-ter);
+    color:#222222;
+    border:none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: background-color 1s ease-out;
+}
+.boton input:hover{
+    background: var(--color-letras);
+    color: rgb(0, 0, 0);
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+.redes_contact i:hover {
+    color:#131272;
+}
+
+.redes_contact{
+    display: flex;
+    justify-content: center;
+}
+.redes_contact i {
+    font-size: 25px;
+    margin: 5px;
+    color: var(--bg-dark);
+}
+@media (max-width: 800px) {
+    .contact-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .form-contact {
+        padding: 20px;
+        width: 100%;
+        background: #222222;
+        border-radius: 10px 0px 0px 0px;
+    }
+        .info-contact {
+            padding: 20px;
+            background: var(--color-letras);
+            color: var(--bg-dark);
+            border-radius: 0px 0px 10px 10px;
+        }
+    .form-contact p{
+        text-align: left;
+    }
+    .info-contact h3{
+        text-align: center;
+    }
+}
