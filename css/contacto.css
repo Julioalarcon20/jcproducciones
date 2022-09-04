@@ -58,7 +58,7 @@
     padding-bottom: 10px;
     padding-top:10px;
 }
-.boton input{
+.boton button{
     width: 100%;
     height: 40px;
     background-color: var(--color-ter);
@@ -68,7 +68,7 @@
     text-transform: uppercase;
     transition: background-color 1s ease-out;
 }
-.boton input:hover{
+.boton button:hover{
     background: var(--color-letras);
     color: rgb(0, 0, 0);
     transition: background-color 1s ease-out;

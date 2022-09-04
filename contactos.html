@@ -123,7 +123,7 @@
             <div class="form-contact">
                 <h3>Formulario contacto</h3>
                 <p>Ponte en contacto con nosotros para poderte ayudar en la planificación de tu evento</p>
-                <form class="form-horizontal" action="https://formsubmit.co/julioalarcon19@gmail.com" method="POST">
+                <form class="form-horizontal" name="contact" method="POST" data-netlify="true">
                     <div class="row">
                         <div class="col-md-6 cajas">
                             <input type="text" name="nombre" placeholder="Nombre">
@@ -141,10 +141,9 @@
                             <textarea placeholder="Mensaje" name="mensaje" id="" cols="30" rows="10"></textarea>
                         </div>
                         <div class="boton">
-                            <input type="button" value="Enviar">
+                            <button type="submit">Enviar</button>
                         </div>
                     </div>
-                    <input type="hidden" name="_captcha" value="false">
                 </form>
             </div>
             <div class="info-contact">
