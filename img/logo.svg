@@ -1,1 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 988 363"><title>Recurso 1</title><g id="Capa_2" data-name="Capa 2"><g id="Capa_1-2" data-name="Capa 1"><path d="M223.36,44.12h64a10,10,0,0,1,10,10V91.36a10,10,0,0,1-10,10h-54a10,10,0,0,1-10-10V44.12A0,0,0,0,1,223.36,44.12Z" style="fill:#22ffe5"/><path d="M148.05,155.42c-2.6,93.81,77.9,92.22,77.9,92.22v19.08s-93.48-1.61-93.48-111.3S226,44.12,226,44.12V63.2S150.58,63.8,148.05,155.42Z" style="fill:#22ffe5"/><path d="M233.36,209.48h64a0,0,0,0,1,0,0v47.24a10,10,0,0,1-10,10h-54a10,10,0,0,1-10-10V219.48A10,10,0,0,1,233.36,209.48Z" transform="translate(520.72 476.2) rotate(180)" style="fill:#22ffe5"/><polygon points="276.59 40.94 242.83 40.94 248.03 29.81 271.4 29.81 276.59 40.94" style="fill:#22ffe5"/><polygon points="243.39 269.9 277.15 269.9 271.96 281.03 248.59 281.03 243.39 269.9" style="fill:#22ffe5"/><text transform="translate(0 268.69) scale(0.97 1)" style="font-size:313.3368835449219px;fill:#22ffe5;font-family:Lovelo-Black, Lovelo;font-weight:800">J</text><text transform="translate(226.25 196.13) scale(0.95 1)" style="font-size:106.4510269165039px;fill:#fff;font-family:Lovelo-Black, Lovelo;font-weight:800">Producciones</text><polygon points="400.9 117.56 394.45 135.48 403.91 139.25 410.36 121.33 400.9 117.56" style="fill:aqua;stroke:#121212;stroke-miterlimit:10;stroke-width:2px"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 988 363">
+  <defs>
+    <style>
+    @font-face {
+    font-family:LOVELO ;
+    src: url('../fonts/LOVELO.TTF');
+    }
+      .cls-1 {
+        fill: #fff;
+        font-size: 106.45px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: LOVELO;
+      }
+
+      .cls-2 {
+        font-size: 313.34px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #22ffe5;
+      }
+
+      .cls-4 {
+        fill: aqua;
+        stroke: #121212;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <g>
+        <path class="cls-3" d="M223.36,44.12h64.01c5.52,0,10,4.48,10,10v37.24c0,5.52-4.48,10-10,10h-54.01c-5.52,0-10-4.48-10-10V44.12h0Z"/>
+        <path class="cls-3" d="M148.05,155.42c-2.6,93.81,77.9,92.22,77.9,92.22v19.08s-93.48-1.61-93.48-111.3S225.95,44.12,225.95,44.12v19.08s-75.37,.6-77.9,92.22Z"/>
+        <path class="cls-3" d="M233.36,209.48h64.01v47.24c0,5.52-4.48,10-10,10h-54.01c-5.52,0-10-4.48-10-10v-37.24c0-5.52,4.48-10,10-10Z" transform="translate(520.72 476.2) rotate(180)"/>
+        <polygon class="cls-3" points="276.59 40.94 242.83 40.94 248.03 29.81 271.4 29.81 276.59 40.94"/>
+        <polygon class="cls-3" points="243.39 269.9 277.15 269.9 271.96 281.03 248.59 281.03 243.39 269.9"/>
+      </g>
+      <text class="cls-2" transform="translate(0 268.69) scale(.97 1)"><tspan x="0" y="0">J</tspan></text>
+      <text class="cls-1" transform="translate(226.25 196.13) scale(.95 1)"><tspan x="0" y="0">Producciones</tspan></text>
+      <polygon class="cls-4" points="400.9 117.56 394.45 135.48 403.91 139.25 410.36 121.33 400.9 117.56"/>
+    </g>
+  </g>
+</svg>
