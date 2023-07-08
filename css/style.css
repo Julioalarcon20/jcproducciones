@@ -10,8 +10,7 @@
     --fuente-primaria:LOVELO;
     --fuente-seg:'Poppins', sans-serif;
     --pading-container:90px 0;
-}
-
+} 
 body{
     font-family:var(--fuente-seg);
     background-color: var(--bg-dark);
